@@ -20,8 +20,8 @@
 ##############################################################################
 import os
 from M2Crypto import BIO, Rand, SMIME, EVP, RSA, X509
-from osv import fields, osv, orm
-from tools.translate import _
+from openerp.osv import fields, osv, orm
+from openerp.tools.translate import _
 
 class pairkey(osv.osv):
     _name = "crypto.pairkey"

@@ -19,8 +19,8 @@
 #
 ##############################################################################
 
-from osv import fields,osv
-from tools.translate import _
+from openerp.osv import fields,osv
+from openerp.tools.translate import _
 from M2Crypto import X509
 from datetime import datetime, timedelta
 
